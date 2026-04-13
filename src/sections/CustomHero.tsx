@@ -12,82 +12,79 @@ const resumePdfUrl = `${baseUrl}Maxim_Belugin_Head_of_Product.pdf`;
 
 const skillGroups = [
   {
-    title: "Банковское дело",
+    title: "Управление рисками",
     tagClass: "bg-green-50 text-green-700",
     titleClass: "text-green-600",
     skills: [
-      "ALM / управление активами и пассивами",
-      "Процентный риск",
-      "Риск ликвидности",
-      "Cash Flow Management",
-      "Forecasting",
-      "План-факт анализ",
+      "Риск-аналитика кредитного портфеля",
+      "Модели планирования и прогнозирования",
+      "Резервы и стресс-тестирование",
+      "Метрики риска",
+      "DWH и витрины данных",
+      "Структура кредитного портфеля",
     ],
   },
   {
-    title: "Аналитика и проектирование",
+    title: "Данные и аналитика",
     tagClass: "bg-blue-50 text-blue-700",
     titleClass: "text-blue-600",
     skills: [
-      "Системный анализ",
-      "Бизнес-анализ",
-      "Use Case",
-      "User Story",
-      "BPMN",
-      "UML",
+      "SQL",
+      "PostgreSQL",
+      "Python (pandas, numpy)",
+      "Jupyter Notebook",
+      "Tableau",
+      "Power BI",
+      "Excel",
     ],
   },
   {
-    title: "Интеграции и API",
+    title: "Управление командой",
     tagClass: "bg-violet-50 text-violet-700",
     titleClass: "text-violet-600",
     skills: [
-      "API Design",
-      "REST API",
-      "JSON API",
-      "gRPC",
-      "RabbitMQ",
-      "Apache Airflow",
+      "Дистанционное управление",
+      "Менторство",
+      "Кросс-функциональные команды",
+      "Преподавание",
+      "Обучение сотрудников",
     ],
   },
   {
-    title: "Данные и БД",
+    title: "Инструменты",
     tagClass: "bg-orange-50 text-orange-700",
     titleClass: "text-orange-600",
     skills: [
-      "SQL",
-      "PostgreSQL",
-      "DBeaver",
-      "Spark",
-      "SQL Management Studio",
-      "Python (pandas, numpy)",
-      "Jupyter Notebook",
+      "Atlassian Jira",
+      "GitHub",
+      "Confluence",
+      "Agile",
+      "Scrum",
     ],
   },
   {
-    title: "Инструменты и процессы",
+    title: "Банковское дело",
     tagClass: "bg-amber-50 text-amber-700",
     titleClass: "text-amber-600",
     skills: [
-      "Atlassian Jira",
-      "Atlassian Confluence",
-      "Camunda",
-      "Agile",
-      "Scrum",
-      "GitHub",
+      "Банковские риски",
+      "Кредитный портфель",
+      "АЛМ",
+      "Процентный риск",
+      "Риск ликвидности",
     ],
   },
   {
-    title: "BI и дашборды",
+    title: "Отчётность",
     tagClass: "bg-rose-50 text-rose-700",
     titleClass: "text-rose-600",
     skills: [
-      "Power BI",
-      "DAX",
-      "Dash",
-      "Sber Navigator",
-      "Qlik Sense",
-      "Tableau",
+      "BI-отчётность",
+      "Регулярная отчётность",
+      "Дашборды",
+      "Анализ данных",
+      "Финмоделирование",
+      "Прогнозирование",
     ],
   },
 ];
@@ -191,7 +188,7 @@ export function CustomHero() {
             {/* Title */}
             <div className="space-y-1">
               <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-500 tracking-normal sm:tracking-wide leading-snug">
-                Руководитель проектов&nbsp;/ Бизнес- и системный аналитик
+                Руководитель риск-аналитики
               </h2>
             </div>
 
@@ -200,10 +197,10 @@ export function CustomHero() {
               <div className="animate-fadeIn py-3 sm:py-4 lg:py-6">
                 <ul className="space-y-3 sm:space-y-3.5">
                   {[
-                    "Глубокая экспертиза в финансах и банковских процессах",
-                    "Опыт управления проектами и кросс-функциональными инициативами",
-                    "Умение переводить бизнес-задачи в функциональные требования, процессы и IT-решения",
-                    "Менторство, преподавательская деятельность по банковскому делу, веду ТГ канал по технологиям",
+                    "Организация Риск-кластеров на DWH и витрины данных для BI-отчётности",
+                    "Риск-аналитика кредитного портфеля, модели планирования и прогнозирования резервов",
+                    "Регулярная отчётность по метрикам риска и структуре портфеля",
+                    "SQL, Python, PostgreSQL, Tableau, опыт дистанционного управления командой",
                   ].map((item) => (
                     <li
                       key={item}
