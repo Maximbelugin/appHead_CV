@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const baseUrl = import.meta.env.BASE_URL;
 const heroBgUrl = `${baseUrl}images/hero-bg.jpg`;
 const profilePhotoUrl = `${baseUrl}images/photo.png`;
-const resumePdfUrl = `${baseUrl}Maxim_Belugin_Head_of_Product.pdf`;
+const resumePdfUrl = `${baseUrl}Maxim_Belugin_Head_of_Risk_Analytics.pdf`;
 
 const skillGroups = [
   {
